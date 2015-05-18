@@ -1,8 +1,8 @@
-//The function takes a string and uses a decrementing loop to iterate over it.
-//Each pass of the loop adds the str[i] character to variable o
-//We then return the newly created, reversed string.
+//The function takes a string and uses a decrementing loop to iterate. Each
+//pass of the loop adds the str[i] character to variable o. We then return the
+//newly created, reversed string.
 
-function FirstReverse(str) { 
+function firstReverse(str) { 
   var o = '';
   for(var i = str.length - 1; i >= 0; i--)
     o += str[i];
